@@ -1,0 +1,238 @@
+[
+    {
+        "id":0,
+        "elementTitle":"Basic Tags",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"&lt p &gt tags",
+                "elementDescription": "The &lt p &gt  HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields."    
+            },
+            {
+                "id":2,
+                "elementName":"&lt br &gt tags",
+                "elementDescription": "The &lt br &gt  HTML element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant."    
+
+            },
+            {
+                "id":3,
+                "elementName":"&lt hr &gt  tags",
+                "elementDescription": "The &lt hr &gt  tags HTML element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section."    
+
+            },
+            {
+                "id":4,
+                "elementName":"&lt a &gt tags",
+                "elementDescription": "The &lt a &gt SVG element creates a hyperlink to other web pages, files, locations in the same page, email addresses, or any other URL. It is very similar to HTML’s <a> element."    
+
+            },
+            {
+                "id":5,
+                "elementName":"&lt img &gt tags",
+                "elementDescription": "he &lt img &gt tags HTML element embeds an image into the document."    
+
+            }
+        ]
+    },   
+
+    
+
+    {
+        "id":1,
+        "elementTitle":"Quotation and Citation",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"blockquote",
+                "elementDescription": "The &lt blockquote &gt  HTML element indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the <cite> element."    
+
+            },
+            {
+                "id":2,
+                "elementName":"q",
+                "elementDescription": "The &lt q &gt HTML element indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. This element is intended for short quotations that don't require paragraph breaks; for long quotations use the <blockquote> element."    
+
+            },
+            {
+                "id":3,
+                "elementName":"abbr",
+                "elementDescription": "The &lt abbr &gt  HTML element represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation. If present, title must contain this full description and nothing else."    
+
+            },
+            {
+                "id":4,
+                "elementName":"address",
+                "elementDescription": "The &lt address &gt HTML element indicates that the enclosed HTML provides contact information for a person or people, or for an organization."    
+
+            },
+            {
+                "id":5,
+                "elementName":"cite",
+                "elementDescription": "The &lt cite &gt HTML element is used to describe a reference to a cited creative work, and must include the title of that work. The reference may be in an abbreviated form according to context-appropriate conventions related to citation metadata."    
+
+            },
+            {
+                "id":5,
+                "elementName":"bdo",
+                "elementDescription": "The &lt bdo &gt HTML element overrides the current directionality of text, so that the text within is rendered in a different direction."    
+
+            }
+        ]
+    },
+    
+    {
+        "id":2,
+        "elementTitle":"Html text formatting",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"color names",
+                "elementDescription": " &ltinput&gt elements of type color provide a user interface element that lets a user specify a color, either by using a visual color picker interface or by entering the color into a text field in #rrggbb hexadecimal format"    
+
+            },
+            {
+                "id":2,
+                "elementName":"border color",
+                "elementDescription": "Each side can be set individually using border-top-color, border-right-color, border-bottom-color, and border-left-color; or using the writing mode-aware border-block-start-color, border-block-end-color, border-inline-start-color, and border-inline-end-color."
+            },
+            {
+                "id":3,
+                "elementName":"text color",
+                "elementDescription":"The color CSS property sets the foreground color value of an element's text and text decorations, and sets the <currentcolor> value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color."
+            },
+            {
+                "id":4,
+                "elementName":"background color",
+                "elementDescription":"The background-color property is specified as a single <color> value."
+            }
+        ]
+    },
+
+    {
+        "id":3,
+        "elementTitle":"Html links",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"Html links",
+                "elementDescription":"HTML links are hyperlinks. You can click on a link and jump to another document.When you move the mouse over a link, the mouse arrow will turn into a little hand"
+
+            },
+            {
+                "id":2,
+                "elementName":"Absolute url vs relative url",
+                "elementDescription":"Both examples above are using an absolute URL (a full web address) in the href attribute. A local link (a link to a page within the same website) is specified with a relative URL (without the 'https://www' part):"
+            },
+            {
+                "id":2,
+                "elementName":"Use an Image as a Link",
+                "elementDescription":"To use an image as a link, just put the &ltimg&gt tag inside the &lta&gt tag:"
+            }
+        ]
+    },
+
+    {
+        "id":4,
+        "elementTitle":"Html tables",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"Table Cells",
+                "elementDescription":"Each table cell is defined by a &lttd&gt and a &lt/td&gt tag."
+            },
+            {
+                "id":2,
+                "elementName":"Row",
+                "elementDescription":"Each table row starts with a &lttr&gt and end with a &lt/tr&gt tag."
+            },
+            {
+                "id":2,
+                "elementName":"Table Headers",
+                "elementDescription":"Sometimes you want your cells to be headers, in those cases use the &ltth&gt tag instead of the &lttd&gt tag"
+            },
+            {
+                "id":2,
+                "elementName":"Table Rows",
+                "elementDescription":"Each table row starts with a &lttr&gt and end with a &lt/tr&gt tag."
+            }
+        ]
+    },
+
+    {
+        "id":5,
+        "elementTitle":"Html lists",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"Unordered HTML list",
+                "elementDescription":"An unordered list starts with the &ltul&gt tag. Each list item starts with the &ltli&gt tag.The list items will be marked with bullets (small black circles) by default:"
+            },
+            {
+                "id":2,
+                "elementName":"Ordered HTML list",
+                "elementDescription":"The type attribute of the &ltol&gt tag, defines the type of the list item marker"
+            },
+            {
+                "id":3,
+                "elementName":"HTML Description list",
+                "elementDescription":"By default, an ordered list will start counting from 1. If you want to start counting from a specified number, you can use the start attribute"
+            },
+            {
+                "id":4,
+                "elementName":"Nested Html List",
+                "elementDescription":"Lists can be nested (list inside list):"
+            }
+        ]
+    },
+
+    {
+        "id":6,
+        "elementTitle":"Html images",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"Html Image Syntax",
+                "elementDescription":"The HTML &ltimg&gt tag is used to embed an image in a web page.Images are not technically inserted into a web page; images are linked to web pages. The &ltimg&gt tag creates a holding space for the referenced image.The &ltimg&gt tag is empty, it contains attributes only, and does not have a closing tag.The &ltimg&gt tag has two required attributes:src - Specifies the path to the image alt - Specifies an alternate text for the image"
+            },
+            {
+                "id":2,
+                "elementName":"Html Image Src Attribute",
+                "elementDescription":"The required src attribute specifies the path (URL) to the image."
+            },
+            {
+                "id":3,
+                "elementName":"Html Image Alt Attribute",
+                "elementDescription":"The required alt attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader). The value of the alt attribute should describe the image:"
+            }
+        
+
+            
+        ]
+    },
+
+    {
+        "id":7,
+        "elementTitle":"Html colors",
+        "elementSubtitle":
+        [
+            {
+                "id":1,
+                "elementName":"Html Colors",
+                "elementDescription":"HTML colors are specified with predefined color names, or with RGB, HEX, HSL, RGBA, or HSLA values."
+            },
+            {
+                "id":2,
+                "elementName":"Background color",
+                "elementDescription":"You can set the background color for HTML elements"
+            }
+            
+        ]
+    }
+]

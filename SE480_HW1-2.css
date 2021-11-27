@@ -1,0 +1,114 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 3px solid green;
+    padding-bottom: 20px;
+}
+
+.html_btn{
+    border-color: green;
+    border-width: 10px;
+}
+
+.css_btn{
+    border-color: green;
+    border-width: 10px;
+}
+
+.sidebar{
+    padding-right: 20px;
+    width: 200px;
+    border-right: 3px solid green;
+    
+
+}
+
+.sidebar-right{
+    margin: 0px;
+    padding-left: 20px;
+    width: 200px;
+    border-left: 3px solid green;   
+}
+
+.content-description{
+    
+    
+    background-color: #d0d5d6;
+    border-radius: 20px;
+    border: 10px solid green;
+    padding: 10px;
+    margin: 10px;
+    position: static;
+    
+}
+
+.content-div{
+    display: block;
+    position: static;
+    width: 400;
+
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-title{
+    text-align: center;
+}
+
+.element_btn{
+    display: block;
+    background-color:white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 3px solid green;
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    position: static;
+}
+
+.element_btn:hover:not(.active){
+    background-color: green;
+    color: white;
+}
+
+
+.element_btn:hover{
+    background-color: #d0d5d6;
+}
+
+.element_btn:active{
+    background-color: green;
+    color: white;
+}
+.subElement_btn{
+
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border-bottom: 1px #f1f1f1 solid;
+
+}
+
+
+
+
+.navbar h1{
+    color: green;
+}
+
+.sidebar-elements{
+    margin-bottom: 20px;
+}
+
+.divider{
+    margin: 10px;
+}
+
+
